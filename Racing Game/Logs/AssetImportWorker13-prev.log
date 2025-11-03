@@ -1,0 +1,555 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 15663 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+D:/Unity/Racing Game/RacingGame/Racing Game
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+61792
+Successfully changed project path to: D:/Unity/Racing Game/RacingGame/Racing Game
+D:/Unity/Racing Game/RacingGame/Racing Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22500] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3348204600 [EditorId] 3348204600 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-34ORN0V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22500] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3348204600 [EditorId] 3348204600 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-34ORN0V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Racing Game/RacingGame/Racing Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2584)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009057 seconds.
+- Loaded All Assemblies, in  0.288 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.228 seconds
+Domain Reload Profiling: 514ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.468 seconds
+Domain Reload Profiling: 979ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (468ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (60.4 KB). Loaded Objects now: 4055.
+Memory consumption went from 141.2 MB to 141.1 MB.
+Total: 2.329900 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.080300 ms MarkObjects: 1.943000 ms  DeleteObjects: 0.101400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SplinatedMeshMaker.cs: 186136378e741b1e92d8fbdbcf063e2f -> 
+  custom:scripting/monoscript/fileName/RoadEditorUtility.cs: aadc3b81bfedf1ffc35b7aeacbfca77b -> 
+  custom:scripting/monoscript/fileName/TerrainHistoryMaker.cs: bd80db21eac75d32af7d11f2fb3695f2 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TerrainCalcsStatic.cs: fa5f93e121a52547e20309ea9504a382 -> 
+  custom:scripting/monoscript/fileName/RoadCalcs2.cs: 7b1afd003c699c88451afd4285bbe6fa -> 
+  custom:scripting/monoscript/fileName/RoadIntersection.cs: 92d45852f1af91bf0ccd308afe266e09 -> 
+  custom:scripting/monoscript/fileName/Construction3DTri.cs: 2cd999df35fbfe8cd72664ba10275c86 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Construction2DRect.cs: ffc8fc0e59fa371a2178467517889e7c -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SplineNEditor.cs: 9d8eb50e307d1c93be1070e8a706f00a -> 
+  custom:scripting/monoscript/fileName/RoadTerrainInfo.cs: 550e88b2d57f10b0c35881cb9f8c0fb4 -> 
+  custom:scripting/monoscript/fileName/ObjExporter.cs: 8562f4b50d93ddcb2326ea0f978c943c -> 
+  custom:scripting/monoscript/fileName/RoadCreationT.cs: 77465fc944fb16a19b9ba80482d8c7b1 -> 
+  custom:scripting/monoscript/fileName/RoadTerrain.cs: f0b7133f5e91d3d32775df6ba3627408 -> 
+  custom:scripting/monoscript/fileName/EdgeObjectMaker.cs: 5feb4d5d32839603c5593f4a7ea6a852 -> 
+  custom:scripting/monoscript/fileName/TerrainEditor.cs: 787cfecfe38e41697629da2e9b24884a -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/IntersectionObjects.cs: 1e48db207cf89fa5f970d99eeb99c011 -> 
+  custom:scripting/monoscript/fileName/RoadUtility.cs: 32bbf2ee15e6541e1a7cbeda98578ff7 -> 
+  custom:scripting/monoscript/fileName/SplineI.cs: 7e30dd4fe2217b9b6bf0e18a606f91c6 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SplineF.cs: ac325033576b03a37943313cc9bc5a75 -> 
+  custom:scripting/monoscript/fileName/SplineC.cs: ab55d70c397b1300c38c36579632b722 -> 
+  custom:scripting/monoscript/fileName/RoadCalcs1.cs: 050391e08fe6448ed393e837ab38404f -> 
+  custom:scripting/monoscript/fileName/Terraforming.cs: ff753df9aedd8a707394741abe2f68eb -> 
+  custom:scripting/monoscript/fileName/RenderQueue.cs: 5d63b902061c180d5e87c007275782ad -> 
+  custom:scripting/monoscript/fileName/TrafficLightController.cs: 52bf7baafaa68f33b5ff77e5d9a12d73 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EditorMenu.cs: 4fcf611837d4b00cb8f092553e14b831 -> 
+  custom:scripting/monoscript/fileName/UnitTests.cs: 35e12a940897bb4781c67c5d0a24d714 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SplineN.cs: 3e104c32ef3dcd69f327308191a4fa9a -> 
+  custom:scripting/monoscript/fileName/SplineCEditor.cs: 860f5f2f84864a005d3a2c1ee9ca7abe -> 
+  custom:scripting/monoscript/fileName/Construction.cs: 53abc802e047effc7c0dee9eddd0431e -> 
+  custom:scripting/monoscript/fileName/Wizard.cs: 72f9ea201e90443c853665d29385d354 -> ea121c7f64c2dd8c51a067cc0f9ecb93
+  custom:scripting/monoscript/fileName/TerrainCalcs.cs: f7242144bc479c49ec528ba77e5a7f34 -> 
+  custom:scripting/monoscript/fileName/SplineIEditor.cs: 6ee08df8f84d526928150494384dc400 -> 
+  custom:scripting/monoscript/fileName/EngineIntegration.cs: 50d01c06f5c8b20af9615e215abd5cf7 -> 
+  custom:scripting/monoscript/fileName/iConstructionMaker.cs: 9efa4a993893a71addfe0ade981140b3 -> 
+  custom:scripting/monoscript/fileName/TerrainHistoryUtility.cs: 63ac9d9755af7755253ddf79d0fb5ab9 -> 
+  custom:scripting/monoscript/fileName/RootUtils.cs: c29654a2fe610dfe05fd0b74f07f6952 -> 
+  custom:scripting/monoscript/fileName/RoadEditor.cs: cd2e1b9be3e16dca3148f4158b900491 -> 08dc25c2675655d08bb7c5f9d177392b
+  custom:scripting/monoscript/fileName/SaveWindow.cs: fddeca34a3429718452045d8bcec33a9 -> 
+  custom:scripting/monoscript/fileName/ThreadedJob.cs: 1d0a7ad496a66e1278d0c29c0bc581f4 -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: 9a4e18d0c7c48076c431915d4d91bc98 -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:scripting/monoscript/fileName/RigidBody.cs: ae228432693cc3375a6e734c5fb0f6e1 -> 
+  custom:scripting/monoscript/fileName/TerraformingThreaded.cs: 7a23fbf91ed418e695a7ff30243815fd -> 
+  custom:scripting/monoscript/fileName/RoadSystemEditor.cs: a625c088d0b662550341b7739c042bd8 -> 9206da15b56c9c166b467f66a2025cb4
+  custom:scripting/monoscript/fileName/RoadAutomation.cs: 2cf3f08d2fe3baaf3a2d0fd69609d083 -> 
+  custom:scripting/monoscript/fileName/Road.cs: a71307ed2f17192f4adc162bd71c991e -> aed53cb10c938289d34b2b8da2270f4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SplineFEditor.cs: 2f6d4d3e4076b6c520fe2d5e651bd9cb -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 11cc1bbcf7b1c81ef654de0cf57510d1 -> 
+  custom:scripting/monoscript/fileName/RoadConstructorBufferMaker.cs: b0f8e23385514f69147878f98fac074a -> 
+  custom:scripting/monoscript/fileName/SplinePreviewNode.cs: 277e796781ff722c875a730be3f927e6 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RoadSystem.cs: 943a6aaaf90119241a0e1f19a31b7f72 -> c3eb2d97756052647d450f7f63250995
+  custom:scripting/monoscript/fileName/EditorProgressWindow.cs: daecd317efc267be9a12d5ce379edf25 -> 
+  custom:scripting/monoscript/fileName/Intersections.cs: 7fd2a4d6224c7e7d7d76fbad2126eac7 -> 
+  custom:scripting/monoscript/fileName/WizardObject.cs: e5389e559bc3485bb2dedbd70b36120b -> 
+  custom:scripting/monoscript/fileName/TrafficLightSequence.cs: 1d1a4ebf43a02b35e26820585d5da7c3 -> 
+  custom:scripting/monoscript/fileName/HelpWindow.cs: f60ce93101b67dcf54db0b2826233ade -> 
+  custom:scripting/monoscript/fileName/RoadIntersectionEditor.cs: 8ebd32469b64dcd61567d500d144979e -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24695.684749 seconds.
+  path: Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl20_t(12123025)_rw10_wh3_n3_RsBTW_MeshV00.asset
+  artifactKey: Guid(47e9acb3c671f804da5ffedf7a4d0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl20_t(12123025)_rw10_wh3_n3_RsBTW_MeshV00.asset using Guid(47e9acb3c671f804da5ffedf7a4d0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369c973055de2e6070bf16354a86a643') in 0.080067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00.asset
+  artifactKey: Guid(63d26076eb2a23b48b4f5c8d20edc420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00.asset using Guid(63d26076eb2a23b48b4f5c8d20edc420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225789bdd6723179bcea430a5a6fb9ec') in 0.009384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.441 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.668 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (33ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (668ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 446 unused Assets / (272.4 KB). Loaded Objects now: 3646.
+Memory consumption went from 138.3 MB to 138.1 MB.
+Total: 3.022500 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.157500 ms MarkObjects: 2.271700 ms  DeleteObjects: 0.386100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SplinatedMeshMaker.cs: 186136378e741b1e92d8fbdbcf063e2f -> 
+  custom:scripting/monoscript/fileName/RoadEditorUtility.cs: aadc3b81bfedf1ffc35b7aeacbfca77b -> 
+  custom:scripting/monoscript/fileName/TerrainHistoryMaker.cs: bd80db21eac75d32af7d11f2fb3695f2 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TerrainCalcsStatic.cs: fa5f93e121a52547e20309ea9504a382 -> 
+  custom:scripting/monoscript/fileName/RoadCalcs2.cs: 7b1afd003c699c88451afd4285bbe6fa -> 
+  custom:scripting/monoscript/fileName/RoadIntersection.cs: 92d45852f1af91bf0ccd308afe266e09 -> 
+  custom:scripting/monoscript/fileName/Construction3DTri.cs: 2cd999df35fbfe8cd72664ba10275c86 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Construction2DRect.cs: ffc8fc0e59fa371a2178467517889e7c -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SplineNEditor.cs: 9d8eb50e307d1c93be1070e8a706f00a -> 
+  custom:scripting/monoscript/fileName/RoadTerrainInfo.cs: 550e88b2d57f10b0c35881cb9f8c0fb4 -> 
+  custom:scripting/monoscript/fileName/ObjExporter.cs: 8562f4b50d93ddcb2326ea0f978c943c -> 
+  custom:scripting/monoscript/fileName/RoadCreationT.cs: 77465fc944fb16a19b9ba80482d8c7b1 -> 
+  custom:scripting/monoscript/fileName/RoadTerrain.cs: f0b7133f5e91d3d32775df6ba3627408 -> 
+  custom:scripting/monoscript/fileName/EdgeObjectMaker.cs: 5feb4d5d32839603c5593f4a7ea6a852 -> 
+  custom:scripting/monoscript/fileName/TerrainEditor.cs: 787cfecfe38e41697629da2e9b24884a -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/IntersectionObjects.cs: 1e48db207cf89fa5f970d99eeb99c011 -> 
+  custom:scripting/monoscript/fileName/RoadUtility.cs: 32bbf2ee15e6541e1a7cbeda98578ff7 -> 
+  custom:scripting/monoscript/fileName/SplineI.cs: 7e30dd4fe2217b9b6bf0e18a606f91c6 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SplineF.cs: ac325033576b03a37943313cc9bc5a75 -> 
+  custom:scripting/monoscript/fileName/SplineC.cs: ab55d70c397b1300c38c36579632b722 -> 
+  custom:scripting/monoscript/fileName/RoadCalcs1.cs: 050391e08fe6448ed393e837ab38404f -> 
+  custom:scripting/monoscript/fileName/Terraforming.cs: ff753df9aedd8a707394741abe2f68eb -> 
+  custom:scripting/monoscript/fileName/RenderQueue.cs: 5d63b902061c180d5e87c007275782ad -> 
+  custom:scripting/monoscript/fileName/TrafficLightController.cs: 52bf7baafaa68f33b5ff77e5d9a12d73 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EditorMenu.cs: 4fcf611837d4b00cb8f092553e14b831 -> 
+  custom:scripting/monoscript/fileName/UnitTests.cs: 35e12a940897bb4781c67c5d0a24d714 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SplineN.cs: 3e104c32ef3dcd69f327308191a4fa9a -> 
+  custom:scripting/monoscript/fileName/SplineCEditor.cs: 860f5f2f84864a005d3a2c1ee9ca7abe -> 
+  custom:scripting/monoscript/fileName/Construction.cs: 53abc802e047effc7c0dee9eddd0431e -> 
+  custom:scripting/monoscript/fileName/Wizard.cs: 72f9ea201e90443c853665d29385d354 -> ea121c7f64c2dd8c51a067cc0f9ecb93
+  custom:scripting/monoscript/fileName/TerrainCalcs.cs: f7242144bc479c49ec528ba77e5a7f34 -> 
+  custom:scripting/monoscript/fileName/SplineIEditor.cs: 6ee08df8f84d526928150494384dc400 -> 
+  custom:scripting/monoscript/fileName/EngineIntegration.cs: 50d01c06f5c8b20af9615e215abd5cf7 -> 
+  custom:scripting/monoscript/fileName/iConstructionMaker.cs: 9efa4a993893a71addfe0ade981140b3 -> 
+  custom:scripting/monoscript/fileName/TerrainHistoryUtility.cs: 63ac9d9755af7755253ddf79d0fb5ab9 -> 
+  custom:scripting/monoscript/fileName/RootUtils.cs: c29654a2fe610dfe05fd0b74f07f6952 -> 
+  custom:scripting/monoscript/fileName/RoadEditor.cs: cd2e1b9be3e16dca3148f4158b900491 -> 08dc25c2675655d08bb7c5f9d177392b
+  custom:scripting/monoscript/fileName/SaveWindow.cs: fddeca34a3429718452045d8bcec33a9 -> 
+  custom:scripting/monoscript/fileName/ThreadedJob.cs: 1d0a7ad496a66e1278d0c29c0bc581f4 -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: 9a4e18d0c7c48076c431915d4d91bc98 -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:scripting/monoscript/fileName/RigidBody.cs: ae228432693cc3375a6e734c5fb0f6e1 -> 
+  custom:scripting/monoscript/fileName/TerraformingThreaded.cs: 7a23fbf91ed418e695a7ff30243815fd -> 
+  custom:scripting/monoscript/fileName/RoadSystemEditor.cs: a625c088d0b662550341b7739c042bd8 -> 9206da15b56c9c166b467f66a2025cb4
+  custom:scripting/monoscript/fileName/RoadAutomation.cs: 2cf3f08d2fe3baaf3a2d0fd69609d083 -> 
+  custom:scripting/monoscript/fileName/Road.cs: a71307ed2f17192f4adc162bd71c991e -> aed53cb10c938289d34b2b8da2270f4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SplineFEditor.cs: 2f6d4d3e4076b6c520fe2d5e651bd9cb -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 11cc1bbcf7b1c81ef654de0cf57510d1 -> 
+  custom:scripting/monoscript/fileName/RoadConstructorBufferMaker.cs: b0f8e23385514f69147878f98fac074a -> 
+  custom:scripting/monoscript/fileName/SplinePreviewNode.cs: 277e796781ff722c875a730be3f927e6 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RoadSystem.cs: 943a6aaaf90119241a0e1f19a31b7f72 -> c3eb2d97756052647d450f7f63250995
+  custom:scripting/monoscript/fileName/EditorProgressWindow.cs: daecd317efc267be9a12d5ce379edf25 -> 
+  custom:scripting/monoscript/fileName/Intersections.cs: 7fd2a4d6224c7e7d7d76fbad2126eac7 -> 
+  custom:scripting/monoscript/fileName/WizardObject.cs: e5389e559bc3485bb2dedbd70b36120b -> 
+  custom:scripting/monoscript/fileName/TrafficLightSequence.cs: 1d1a4ebf43a02b35e26820585d5da7c3 -> 
+  custom:scripting/monoscript/fileName/HelpWindow.cs: f60ce93101b67dcf54db0b2826233ade -> 
+  custom:scripting/monoscript/fileName/RoadIntersectionEditor.cs: 8ebd32469b64dcd61567d500d144979e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.446 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.658 seconds
+Domain Reload Profiling: 1102ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (44ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (658ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (34.5 KB). Loaded Objects now: 4072.
+Memory consumption went from 148.7 MB to 148.7 MB.
+Total: 2.788900 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.182500 ms MarkObjects: 2.318900 ms  DeleteObjects: 0.061900 ms)
+
+Prepare: number of updated asset objects reloaded= 59
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SplinatedMeshMaker.cs: 186136378e741b1e92d8fbdbcf063e2f -> 
+  custom:scripting/monoscript/fileName/RoadEditorUtility.cs: aadc3b81bfedf1ffc35b7aeacbfca77b -> 
+  custom:scripting/monoscript/fileName/TerrainHistoryMaker.cs: bd80db21eac75d32af7d11f2fb3695f2 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TerrainCalcsStatic.cs: fa5f93e121a52547e20309ea9504a382 -> 
+  custom:scripting/monoscript/fileName/RoadCalcs2.cs: 7b1afd003c699c88451afd4285bbe6fa -> 
+  custom:scripting/monoscript/fileName/RoadIntersection.cs: 92d45852f1af91bf0ccd308afe266e09 -> 
+  custom:scripting/monoscript/fileName/Construction3DTri.cs: 2cd999df35fbfe8cd72664ba10275c86 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Construction2DRect.cs: ffc8fc0e59fa371a2178467517889e7c -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SplineNEditor.cs: 9d8eb50e307d1c93be1070e8a706f00a -> 
+  custom:scripting/monoscript/fileName/RoadTerrainInfo.cs: 550e88b2d57f10b0c35881cb9f8c0fb4 -> 
+  custom:scripting/monoscript/fileName/ObjExporter.cs: 8562f4b50d93ddcb2326ea0f978c943c -> 
+  custom:scripting/monoscript/fileName/RoadCreationT.cs: 77465fc944fb16a19b9ba80482d8c7b1 -> 
+  custom:scripting/monoscript/fileName/RoadTerrain.cs: f0b7133f5e91d3d32775df6ba3627408 -> 
+  custom:scripting/monoscript/fileName/EdgeObjectMaker.cs: 5feb4d5d32839603c5593f4a7ea6a852 -> 
+  custom:scripting/monoscript/fileName/TerrainEditor.cs: 787cfecfe38e41697629da2e9b24884a -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/IntersectionObjects.cs: 1e48db207cf89fa5f970d99eeb99c011 -> 
+  custom:scripting/monoscript/fileName/RoadUtility.cs: 32bbf2ee15e6541e1a7cbeda98578ff7 -> 
+  custom:scripting/monoscript/fileName/SplineI.cs: 7e30dd4fe2217b9b6bf0e18a606f91c6 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SplineF.cs: ac325033576b03a37943313cc9bc5a75 -> 
+  custom:scripting/monoscript/fileName/SplineC.cs: ab55d70c397b1300c38c36579632b722 -> 
+  custom:scripting/monoscript/fileName/RoadCalcs1.cs: 050391e08fe6448ed393e837ab38404f -> 
+  custom:scripting/monoscript/fileName/Terraforming.cs: ff753df9aedd8a707394741abe2f68eb -> 
+  custom:scripting/monoscript/fileName/RenderQueue.cs: 5d63b902061c180d5e87c007275782ad -> 
+  custom:scripting/monoscript/fileName/TrafficLightController.cs: 52bf7baafaa68f33b5ff77e5d9a12d73 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EditorMenu.cs: 4fcf611837d4b00cb8f092553e14b831 -> 
+  custom:scripting/monoscript/fileName/UnitTests.cs: 35e12a940897bb4781c67c5d0a24d714 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SplineN.cs: 3e104c32ef3dcd69f327308191a4fa9a -> 
+  custom:scripting/monoscript/fileName/SplineCEditor.cs: 860f5f2f84864a005d3a2c1ee9ca7abe -> 
+  custom:scripting/monoscript/fileName/Construction.cs: 53abc802e047effc7c0dee9eddd0431e -> 
+  custom:scripting/monoscript/fileName/Wizard.cs: 72f9ea201e90443c853665d29385d354 -> ea121c7f64c2dd8c51a067cc0f9ecb93
+  custom:scripting/monoscript/fileName/TerrainCalcs.cs: f7242144bc479c49ec528ba77e5a7f34 -> 
+  custom:scripting/monoscript/fileName/SplineIEditor.cs: 6ee08df8f84d526928150494384dc400 -> 
+  custom:scripting/monoscript/fileName/EngineIntegration.cs: 50d01c06f5c8b20af9615e215abd5cf7 -> 
+  custom:scripting/monoscript/fileName/iConstructionMaker.cs: 9efa4a993893a71addfe0ade981140b3 -> 
+  custom:scripting/monoscript/fileName/TerrainHistoryUtility.cs: 63ac9d9755af7755253ddf79d0fb5ab9 -> 
+  custom:scripting/monoscript/fileName/RootUtils.cs: c29654a2fe610dfe05fd0b74f07f6952 -> 
+  custom:scripting/monoscript/fileName/RoadEditor.cs: cd2e1b9be3e16dca3148f4158b900491 -> 08dc25c2675655d08bb7c5f9d177392b
+  custom:scripting/monoscript/fileName/SaveWindow.cs: fddeca34a3429718452045d8bcec33a9 -> 
+  custom:scripting/monoscript/fileName/ThreadedJob.cs: 1d0a7ad496a66e1278d0c29c0bc581f4 -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: 9a4e18d0c7c48076c431915d4d91bc98 -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:scripting/monoscript/fileName/RigidBody.cs: ae228432693cc3375a6e734c5fb0f6e1 -> 
+  custom:scripting/monoscript/fileName/TerraformingThreaded.cs: 7a23fbf91ed418e695a7ff30243815fd -> 
+  custom:scripting/monoscript/fileName/RoadSystemEditor.cs: a625c088d0b662550341b7739c042bd8 -> 9206da15b56c9c166b467f66a2025cb4
+  custom:scripting/monoscript/fileName/RoadAutomation.cs: 2cf3f08d2fe3baaf3a2d0fd69609d083 -> 
+  custom:scripting/monoscript/fileName/Road.cs: a71307ed2f17192f4adc162bd71c991e -> aed53cb10c938289d34b2b8da2270f4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SplineFEditor.cs: 2f6d4d3e4076b6c520fe2d5e651bd9cb -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 11cc1bbcf7b1c81ef654de0cf57510d1 -> 
+  custom:scripting/monoscript/fileName/RoadConstructorBufferMaker.cs: b0f8e23385514f69147878f98fac074a -> 
+  custom:scripting/monoscript/fileName/SplinePreviewNode.cs: 277e796781ff722c875a730be3f927e6 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RoadSystem.cs: 943a6aaaf90119241a0e1f19a31b7f72 -> c3eb2d97756052647d450f7f63250995
+  custom:scripting/monoscript/fileName/EditorProgressWindow.cs: daecd317efc267be9a12d5ce379edf25 -> 
+  custom:scripting/monoscript/fileName/Intersections.cs: 7fd2a4d6224c7e7d7d76fbad2126eac7 -> 
+  custom:scripting/monoscript/fileName/WizardObject.cs: e5389e559bc3485bb2dedbd70b36120b -> 
+  custom:scripting/monoscript/fileName/TrafficLightSequence.cs: 1d1a4ebf43a02b35e26820585d5da7c3 -> 
+  custom:scripting/monoscript/fileName/HelpWindow.cs: f60ce93101b67dcf54db0b2826233ade -> 
+  custom:scripting/monoscript/fileName/RoadIntersectionEditor.cs: 8ebd32469b64dcd61567d500d144979e -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1513.507709 seconds.
+  path: Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Complex/Round-a-Bout r=30m 8-Way.prefab
+  artifactKey: Guid(b5727b2519161644894c91b29cc1c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Complex/Round-a-Bout r=30m 8-Way.prefab using Guid(b5727b2519161644894c91b29cc1c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c796b7ff7fb564bfe0fed7c8394e071') in 0.363488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 246
+========================================================================
+Received Import Request.
+  Time since last request: 1.588757 seconds.
+  path: Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Intersections/Intersection 3-Way Curved r=30m.prefab
+  artifactKey: Guid(a4875ee1605f63c4fa930ffee0371b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Intersections/Intersection 3-Way Curved r=30m.prefab using Guid(a4875ee1605f63c4fa930ffee0371b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9455a650e0e3ea6436f9238d3dac0eab') in 0.012855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Intersections/Intersection Road 4-Lane Bridge.prefab
+  artifactKey: Guid(070bc2339e9afb843aff483f80fc2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Intersections/Intersection Road 4-Lane Bridge.prefab using Guid(070bc2339e9afb843aff483f80fc2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b1673770743e83b8000ee4b46f9d14') in 0.022070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Intersections/Transition 2-4.prefab
+  artifactKey: Guid(5454162f7468e5948b3b473b692e8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Intersections/Transition 2-4.prefab using Guid(5454162f7468e5948b3b473b692e8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94df0cfb38c4ec43dc87a9c047102c50') in 0.012431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Intersections/Intersection Road 4-Lane.prefab
+  artifactKey: Guid(939ca84dc88d06d40a1ce939cfb6f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Intersections/Intersection Road 4-Lane.prefab using Guid(939ca84dc88d06d40a1ce939cfb6f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d3c4266fe18fb03196175c3a2c716e') in 0.011744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.385910 seconds.
+  path: Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Roads/Road 2-Lane Ground.prefab
+  artifactKey: Guid(05f58740ddf6f854a9d8d8d0277b394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Roads/Road 2-Lane Ground.prefab using Guid(05f58740ddf6f854a9d8d8d0277b394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c72deaf2b553dc82c5f507bfbb65e27') in 0.002174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Roads/Road 4-Lane Bridge.prefab
+  artifactKey: Guid(041597e523e7aaf44ac392f49d57734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/MB Road System/2.1.0/Roads and Intersections/Prefabs/Roads/Road 4-Lane Bridge.prefab using Guid(041597e523e7aaf44ac392f49d57734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7786865d83bc98af1da6749d796f622') in 0.001821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
